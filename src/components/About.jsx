@@ -6,7 +6,7 @@ function About() {
         <h2>About Me</h2>
         <div className="about-container">
             <div className="about-image">
-                <img src="https://tharanga8888.github.io/Portfolio_react_2025_intern/Portfolio_react_2025_intern/src/assets/me3.png" alt="Rukmin Tharanga Portrait" />
+                <img src="https://github.com/Tharanga8888/Portfolio_react_2025_intern/blob/main/src/assets/me3.png" alt="Rukmin Tharanga Portrait" />
             </div>
 
             <div className="about-text">
