@@ -6,7 +6,7 @@ function About() {
         <h2>About Me</h2>
         <div className="about-container">
             <div className="about-image">
-                <img src="Portfolio_react_2025_intern/src/assets/me3.png" alt="Rukmin Tharanga Portrait" />
+                <img src={import.meta.env.BASE_URL +"aboutAssets/me3.png"} alt="Rukmin Tharanga Portrait" />
             </div>
 
             <div className="about-text">
