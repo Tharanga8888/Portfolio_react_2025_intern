@@ -1,5 +1,3 @@
-import me3 from "../assets/me3.png";
-import cvFile from './assets/cv.pdf';
 
 function About() {
 
@@ -8,7 +6,7 @@ function About() {
         <h2>About Me</h2>
         <div className="about-container">
             <div className="about-image">
-                <img src="/me3.png" alt="Rukmin Tharanga Portrait" />
+                <img src="Portfolio_react_2025_intern/src/assets/me3.png" alt="Rukmin Tharanga Portrait" />
             </div>
 
             <div className="about-text">
@@ -22,7 +20,7 @@ function About() {
                     My experience spans both web development and broader tech domains, giving me a versatile edge. I thrive on learning quickly, adapting fast, and contributing meaningfully in dynamic environments.
                 </p>
 
-                <a href="src/assets/Rukmin_Tharanga_Resume.pdf" className="btn" download>Download Resume</a>
+                <a href="Portfolio_react_2025_intern/src/assets/Rukmin_Tharanga_Resume.pdf" className="btn" download>Download Resume</a>
             </div>
         </div>
     </section>
