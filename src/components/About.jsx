@@ -6,7 +6,7 @@ function About() {
         <h2>About Me</h2>
         <div className="about-container">
             <div className="about-image">
-                <img src={import.meta.env.BASE_URL +"aboutAssets/me3.png"} alt="Rukmin Tharanga Portrait" />
+                <img src={import.meta.env.BASE_URL +"/aboutAssets/me3.png"} alt="Rukmin Tharanga Portrait" />
             </div>
 
             <div className="about-text">
@@ -20,7 +20,7 @@ function About() {
                     My experience spans both web development and broader tech domains, giving me a versatile edge. I thrive on learning quickly, adapting fast, and contributing meaningfully in dynamic environments.
                 </p>
 
-                <a href= {import.meta.env.BASE_URL + "aboutAssets/me3.png/Rukmin_Tharanga_Resume.pdf"} className="btn" download>Download Resume</a>
+                <a href= {import.meta.env.BASE_URL + "/aboutAssets/Rukmin_Tharanga_Resume.pdf"} className="btn" download>Download Resume</a>
             </div>
         </div>
     </section>
