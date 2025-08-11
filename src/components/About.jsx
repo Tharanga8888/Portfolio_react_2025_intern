@@ -1,3 +1,6 @@
+import profileImg from 'src/assets/me3.png';
+import cvFile from './assets/cv.pdf';
+
 function About() {
 
   return (
@@ -5,7 +8,7 @@ function About() {
         <h2>About Me</h2>
         <div className="about-container">
             <div className="about-image">
-                <img src="src/assets/me3.png" alt="Rukmin Tharanga Portrait" />
+                <img src={profileImg} alt="Rukmin Tharanga Portrait" />
             </div>
 
             <div className="about-text">
