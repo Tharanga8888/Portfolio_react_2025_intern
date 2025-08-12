@@ -20,7 +20,6 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-
 header {
     background: #161b22;
     padding: 1rem 5%;
@@ -71,43 +70,35 @@ nav {
   padding: 0 20px;
   overflow: hidden;
 }
-
 /* Animated gradient background */
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
-/* Optional overlay for dark effect if using an image */
 .hero-overlay {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 0;
 }
-
 .hero-text {
   position: relative;
   z-index: 1;
 }
-
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
 }
-
 .hero span {
   color: #00ffff;
   text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
 }
-
 .hero p {
   max-width: 600px;
   margin: 1rem auto;
   color: #ddd;
 }
-
 /* Button animation */
 .hero-btn {
   display: inline-block;
@@ -119,7 +110,6 @@ nav {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-6px); }
 }
-
 /* Scroll Indicator */
 .scroll-indicator {
   margin-top: 2rem;
@@ -149,7 +139,6 @@ nav {
   0% { opacity: 1; transform: translate(-50%, 0); }
   100% { opacity: 0; transform: translate(-50%, 16px); }
 }
-
 .btn {
     background: #00ffff;
     color: black;
@@ -180,15 +169,12 @@ nav {
   margin-bottom: 2rem;
   color: #00ffff;
 }
-
 .about-container {
   display: flex;
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
-
-/* Image side */
 .about-image {
   flex: 1 1 300px;
   display: flex;
@@ -204,25 +190,19 @@ nav {
 .about-image img:hover {
   transform: scale(1.05);
 }
-
-/* Text side */
 .about-text {
   flex: 2 1 400px;
   font-size: 1rem;
   line-height: 1.6;
   color: #ddd;
 }
-
 .about-text p {
   margin-bottom: 1rem;
 }
-
 .highlight {
   color: #00ffff;
   font-weight: 600;
 }
-
-/* Button reuse */
 .about-text .btn {
   margin-top: 0.5rem;
   display: inline-block;
@@ -247,15 +227,11 @@ nav {
   margin-bottom: 2rem;
   color: #00ffff;
 }
-
-/* Responsive grid for skill categories */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
 }
-
-/* Card styling */
 .skill-card {
   background: #161b22;
   border-radius: 12px;
@@ -264,25 +240,20 @@ nav {
   box-shadow: 0 6px 18px rgba(0, 255, 255, 0.04);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .skill-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 28px rgba(0, 255, 255, 0.12);
 }
-
 .skill-card h3 {
   color: #00ffff;
   font-size: 1.1rem;
   margin-bottom: 0.75rem;
 }
-
-/* Tags */
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
-
 .skill-tags span {
   background: rgba(0, 255, 255, 0.05);
   border: 1px solid rgba(0, 255, 255, 0.15);
@@ -292,7 +263,6 @@ nav {
   color: #ddd;
   transition: background 0.3s ease, border-color 0.3s ease, transform 0.25s ease;
 }
-
 .skill-tags span:hover {
   background: rgba(0, 255, 255, 0.12);
   border-color: rgba(0, 255, 255, 0.3);
@@ -307,19 +277,15 @@ nav {
   margin-bottom: 2rem;
   color: #00ffff;
 }
-
 .education-timeline {
   position: relative;
   padding-left: 30px;
   border-left: 2px solid rgba(0, 255, 255, 0.2);
 }
-
 .edu-item {
   position: relative;
   margin-bottom: 2rem;
 }
-
-/* Timeline dot */
 .edu-dot {
   position: absolute;
   left: -10px;
@@ -332,10 +298,8 @@ nav {
   transition: transform 0.3s ease;
 }
 .edu-item:hover .edu-dot {
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
-
-/* Content */
 .edu-content {
   background: #161b22;
   padding: 1rem 1.2rem;
@@ -343,19 +307,16 @@ nav {
   border: 1px solid rgba(0, 255, 255, 0.15);
   box-shadow: 0 4px 12px rgba(0, 255, 255, 0.05);
 }
-
 .edu-content h3 {
   font-size: 1rem;
   margin-bottom: 0.3rem;
   color: #fff;
 }
-
 .edu-content p {
   font-size: 0.9rem;
   color: #ccc;
   margin-bottom: 0.5rem;
 }
-
 .edu-date {
   font-size: 0.8rem;
   color: #00ffff;
@@ -378,33 +339,26 @@ nav {
 .contact-section {
   text-align: center;
 }
-
 .contact-section h2 {
   color: #00ffff;
   margin-bottom: 1rem;
 }
-
 .contact-intro {
   color: #ccc;
   margin-bottom: 2rem;
 }
-
-/* Contact layout */
 .contact-container {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/* Contact info list */
 .contact-info {
   flex: 1 1 250px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-
 .contact-item {
   background: #161b22;
   padding: 0.8rem 1rem;
@@ -449,21 +403,19 @@ nav {
 
 
 
-/* Projects section (paste into style.css) */
+/* Projects section */
 :root {
   --accent: #00ffff;
   --card-bg: #161b22;
   --muted: #9aa6b2;
 }
 
-/* Section header uses the same .section spacing from your main CSS */
 .projects-section h2 {
   color: var(--accent);
   text-align: center;
   margin-bottom: 1.6rem;
 }
 
-/* Grid: 4 columns desktop, 3 large-laptop, 2 tablet, 1 mobile */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -471,7 +423,6 @@ nav {
   align-items: stretch;
 }
 
-/* Card */
 .project-card {
   position: relative;
   background: var(--card-bg);
@@ -482,7 +433,6 @@ nav {
   overflow: hidden;
 }
 
-/* Hover lift */
 .project-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 34px rgba(2,6,23,0.85);
@@ -505,7 +455,6 @@ nav {
 }
 .project-star:hover { transform: scale(1.06); }
 
-/* default star look: outline-ish */
 .project-star svg {
   width: 18px;
   height: 18px;
@@ -515,7 +464,6 @@ nav {
   transition: all .18s ease;
 }
 
-/* featured state */
 .project-star.featured {
   background: linear-gradient(135deg, rgba(0,255,255,0.06), rgba(0,255,255,0.03));
   border-color: rgba(0,255,255,0.14);
@@ -527,7 +475,6 @@ nav {
   filter: drop-shadow(0 8px 16px rgba(0,255,255,0.08));
 }
 
-/* Project content */
 .project-title {
   margin-bottom: 0.35rem;
   font-size: 1.05rem;
@@ -539,7 +486,6 @@ nav {
   margin-bottom: 0.8rem;
 }
 
-/* Tech chips */
 .tech-list {
   display: flex;
   flex-wrap: wrap;
@@ -557,7 +503,6 @@ nav {
   color: var(--muted);
 }
 
-/* CTA buttons (small) */
 .btn.small {
   padding: 0.45rem 0.8rem;
   font-size: 0.85rem;
@@ -572,7 +517,6 @@ nav {
   color: var(--muted);
 }
 
-/* Utility: stack CTA to bottom on tall cards */
 .project-cta {
   margin-top: auto;
   display:flex;
