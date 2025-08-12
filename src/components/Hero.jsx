@@ -8,7 +8,7 @@ function Hero() {
             <h1>Hi, I'm <span>Rukmin Tharanga</span></h1>
             <h2 className="typewriter"></h2>
             <p>Passionate about technology, eager to learn, and driven to create impactful solutions.</p>
-            <a href="#contact" className="btn hero-btn">Get in Touch</a>
+            <a href="#about" className="btn hero-btn">Let's Start</a>
 
             <div className="scroll-indicator">
                 <span></span>

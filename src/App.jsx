@@ -12,7 +12,7 @@ import Footer from './components/Footer.jsx';
 
 function App() {
   useEffect(() => {
-    // Smooth scrolling
+    //Smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
@@ -23,7 +23,6 @@ function App() {
       });
     });
 
-    // Fade-in on scroll
     const fadeSections = document.querySelectorAll(".fade-section");
     const fadeObserver = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -36,7 +35,6 @@ function App() {
 
     fadeSections.forEach(section => fadeObserver.observe(section));
 
-    // Typewriter effect
     const typewriterEl = document.querySelector(".typewriter");
     if (typewriterEl) {
       const words = ["IT Undergraduate ", "Web Developer ", "Tech Enthusiast ", "Fast Learner "];
@@ -67,7 +65,7 @@ function App() {
 
       typeEffect();
     }
-  }, []); // <-- runs once after initial render
+  }, []);
 
   return (
     <>

@@ -2,7 +2,7 @@ function Education() {
 
   return (
         <section id="education" className="section education-section fade-section">
-        <h2>Education</h2>
+        <h2 className="sectionHead">EDUCATION</h2>
         <div className="education-timeline">
 
             <div className="edu-item">

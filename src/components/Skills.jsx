@@ -2,7 +2,7 @@ function Skills() {
 
   return (
     <section id="skills" className="section skills-section fade-section">
-        <h2>Skills</h2>
+        <h2 className="sectionHead">SKILLS</h2>
         <div className="skills-grid">
             
             <div className="skill-card">

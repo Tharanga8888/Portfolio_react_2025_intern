@@ -219,7 +219,7 @@ const projectList = [
 function Project() {
   return (
     <section id="projects" className="section projects-section fade-section">
-      <h2>Projects</h2>
+      <h2 className="sectionHead">PROJECTS</h2>
 
       <div className="projects-grid">
         {projectList.map((p) => (
