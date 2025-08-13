@@ -21,12 +21,15 @@ function Skills() {
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>JavaScript</span>
+                    <span>TypeScript</span>
                     <span>Bootstrap</span>
                     <span>TailwindCSS</span>
                     <span>React</span>
                     <span>Django</span>
                     <span>FastAPI</span>
                     <span>PHP</span>
+                    <span>JSON</span>
+                    <span>XML</span>
                 </div>
             </div>
 
@@ -45,12 +48,18 @@ function Skills() {
                 <div className="skill-tags">
                     <span>Git & GitHub</span>
                     <span>RESTful APIs</span>
-                    <span>JSON</span>
-                    <span>XML</span>
                     <span>Postman</span>
+                    <span>HuggingFace</span>
                     <span>Ardiuno</span>
+                </div>
+            </div>
+
+            <div className="skill-card">
+                <h3>Computer Networking</h3>
+                <div className="skill-tags">
+                    <span>Cisco Packet Tracer</span>
                     <span>WireShark</span>
-                    <span>Cisco Packet Tracer</span> 
+                    <span>Network Programming - JAVA</span>
                 </div>
             </div>
 
@@ -61,8 +70,7 @@ function Skills() {
                     <span>OOP</span>
                     <span>Data Structures & Algorithms</span>
                     <span>IoT & Embedded Systems</span>
-                    <span>Computer Networking
-                    </span>
+                    <span>Cryptography - Python</span>
                 </div>
             </div>
 
