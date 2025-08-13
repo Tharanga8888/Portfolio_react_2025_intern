@@ -48,8 +48,8 @@ const projectList = [
     title: "Portfolio Website",
     desc: "",
     tech: ["React"],
-    live: "#",
-    code: "https://github.com/Tharanga8888/Portfolio-react-2025.git",
+    live: "https://tharanga8888.github.io/Portfolio_react_2025_intern/",
+    code: "https://github.com/Tharanga8888/Portfolio_react_2025_intern.git",
     featured: false,
   },
   {
