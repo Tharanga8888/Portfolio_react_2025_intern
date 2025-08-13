@@ -44,22 +44,26 @@ function Skills() {
             </div>
 
             <div className="skill-card">
-                <h3>Tools & Platforms</h3>
+                <h3>Computer Networking</h3>
                 <div className="skill-tags">
-                    <span>Git & GitHub</span>
-                    <span>RESTful APIs</span>
-                    <span>Postman</span>
-                    <span>HuggingFace</span>
-                    <span>Ardiuno</span>
+                    <span>Network Programming - JAVA</span>
+                    <span>Wireless Networking</span>
+                    <span>Wireless Sensor Networks</span>
+                    <span>Cisco Packet Tracer</span>
+                    <span>WireShark</span>
                 </div>
             </div>
 
             <div className="skill-card">
-                <h3>Computer Networking</h3>
+                <h3>Tools & Platforms</h3>
                 <div className="skill-tags">
-                    <span>Cisco Packet Tracer</span>
-                    <span>WireShark</span>
-                    <span>Network Programming - JAVA</span>
+                    <span>Git & GitHub</span>
+                    <span>RESTful API</span>
+                    <span>Postman</span>
+                    <span>HuggingFace</span>
+                    <span>Ardiuno</span>
+                    <span>Thinkercad</span>
+                    <span>Wokwi</span>
                 </div>
             </div>
 
