@@ -1,5 +1,41 @@
 const projectList = [
   {
+  id: "proj-25",
+  title: "Full Stack Realtime Chat App",
+  desc: "Built a MERN-based chat app with real-time messaging, JWT authentication, and global state management using Zustand.",
+  tech: ["MongoDB", "Express", "React", "Node", "Socket.io", "TailwindCSS"],
+  live: "https://dummy-chatapp-live.com",
+  code: "https://github.com/Tharanga8888/realtime-chat-app",
+  featured: true,
+  },
+  {
+    id: "proj-26",
+    title: "PERN Stack Web App",
+    desc: "Developed a full-stack PERN application with PostgreSQL, REST API, and frontend built in React and TailwindCSS.",
+    tech: ["PostgreSQL", "Express", "React", "Node", "TailwindCSS"],
+    live: "https://dummy-pernapp-live.com",
+    code: "https://github.com/Tharanga8888/pern-stack-app",
+    featured: true,
+  },
+  {
+    id: "proj-27",
+    title: "MERN Stack Note Taking App",
+    desc: "Created a responsive note-taking app with CRUD functionality, MongoDB backend, and rate limiting using Redis.",
+    tech: ["MongoDB", "Express", "React", "Node", "Redis"],
+    live: "https://dummy-noteapp-live.com",
+    code: "https://github.com/Tharanga8888/mern-note-app",
+    featured: true,
+  },
+  {
+    id: "proj-28",
+    title: "MERN Stack Food Recipe App",
+    desc: "Developed a full-stack recipe management app with user authentication, image uploads using Multer, and protected CRUD operations for recipes.",
+    tech: ["MongoDB", "Express", "React", "Node", "JWT", "Multer", "TailwindCSS"],
+    live: "https://dummy-recipeapp-live.com",
+    code: "https://github.com/username/mern-recipe-app",
+    featured: false,
+  },
+  {
     id: "proj-1",
     title: "Movie Search Engine",
     desc: "Website you can find your movies. TMDb API is used to create this porject.",
@@ -32,8 +68,8 @@ const projectList = [
     tech: ["React"],
     live: "https://tharanga8888.github.io/to-do-list_react/",
     code: "https://github.com/Tharanga8888/to-do-list_react.git",
-    featured: true,
-  },
+    featured: false,
+  },/*
   {
     id: "proj-5",
     title: "Color Picker",
@@ -60,7 +96,7 @@ const projectList = [
     live: "https://tharanga8888.github.io/StopWatch_react/",
     code: "https://github.com/Tharanga8888/StopWatch_react.git",
     featured: false,
-  },
+  },*/
   {
     id: "proj-8",
     title: "Dice Roller Game",
@@ -68,7 +104,7 @@ const projectList = [
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://tharanga8888.github.io/Dice-Roller-Game-JS/",
     code: "https://github.com/Tharanga8888/Dice-Roller-Game-JS.git",
-    featured: true,
+    featured: false,
   },
   {
     id: "proj-9",
@@ -77,7 +113,7 @@ const projectList = [
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://tharanga8888.github.io/Rock-Papaer-Scissors-JS/",
     code: "https://github.com/Tharanga8888/Rock-Papaer-Scissors-JS.git",
-    featured: true,
+    featured: false,
   },
   {
     id: "proj-10",
@@ -86,7 +122,7 @@ const projectList = [
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://tharanga8888.github.io/Pomodoro-Timer-JS/",
     code: "https://github.com/Tharanga8888/Pomodoro-Timer-JS.git",
-    featured: true,
+    featured: false,
   },
   {
     id: "proj-11",
@@ -104,8 +140,8 @@ const projectList = [
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://tharanga8888.github.io/Text-to-Speech-JS/",
     code: "https://github.com/Tharanga8888/Text-to-Speech-JS.git",
-    featured: true,
-  },
+    featured: false,
+  },/*
   {
     id: "proj-13",
     title: "Tip Calculator",
@@ -150,7 +186,7 @@ const projectList = [
     live: "https://tharanga8888.github.io/Quiz-Game-JS/",
     code: "https://github.com/Tharanga8888/Quiz-Game-JS.git",
     featured: false,
-  },
+  },*/
   {
     id: "proj-18",
     title: "Password Generator",
@@ -158,8 +194,8 @@ const projectList = [
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://tharanga8888.github.io/Password-Generator-JS/",
     code: "https://github.com/Tharanga8888/Password-Generator-JS.git",
-    featured: true,
-  },
+    featured: false,
+  },/*
   {
     id: "proj-19",
     title: "Number Guessing Game",
@@ -213,7 +249,7 @@ const projectList = [
     live: "https://tharanga8888.github.io/Age-Calculator-JS/",
     code: "https://github.com/Tharanga8888/Age-Calculator-JS.git",
     featured: false,
-  },
+  },*/
 ];
 
 function Project() {

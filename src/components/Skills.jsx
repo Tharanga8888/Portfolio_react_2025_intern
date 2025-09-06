@@ -25,6 +25,7 @@ function Skills() {
                     <span>Bootstrap</span>
                     <span>TailwindCSS</span>
                     <span>React</span>
+                    <span>Express JS</span>
                     <span>Django</span>
                     <span>FastAPI</span>
                     <span>PHP</span>
