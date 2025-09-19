@@ -1,12 +1,12 @@
 const projectList = [
   {
-  id: "proj-25",
-  title: "Full Stack Realtime Chat App",
-  desc: "Built a MERN-based chat app with real-time messaging, JWT authentication, and global state management using Zustand.",
-  tech: ["MongoDB", "Express", "React", "Node", "Socket.io", "TailwindCSS"],
-  live: "#",
-  code: "https://github.com/Tharanga8888/Chap-App-MERN",
-  featured: true,
+    id: "proj-25",
+    title: "Full Stack Realtime Chat App",
+    desc: "Built a MERN-based chat app with real-time messaging, JWT authentication, and global state management using Zustand.",
+    tech: ["MongoDB", "Express", "React", "Node", "Socket.io", "TailwindCSS"],
+    live: "#",
+    code: "https://github.com/Tharanga8888/Chap-App-MERN",
+    featured: true,
   },
   {
     id: "proj-26",
@@ -42,6 +42,15 @@ const projectList = [
     tech: ["React", "TMDb-API"],
     live: "https://tharanga8888.github.io/react_Movie_Website/",
     code: "https://github.com/Tharanga8888/react_Movie_Website.git",
+    featured: true,
+  },
+  {
+    id: "proj-29",
+    title: "Code Editor",
+    desc: "Interactive web code editor supporting HTML, CSS, and JavaScript with live preview, logging, and simple validation tests inside the browser.",
+    tech: ["React", "Ace Editor", "Vite", "LocalStorage"],
+    live: "https://tharanga8888.github.io/Code_Editor_React/",
+    code: "https://github.com/Tharanga8888/Code_Editor_React.git",
     featured: true,
   },
   {
